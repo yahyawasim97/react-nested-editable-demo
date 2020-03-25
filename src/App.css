@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.title__style {
+  font-size: 24;
+  font-weight: bold;
+  margin: auto;
+}
+
+.logo__style {
+  height: 25 !important;
+  width: auto;
+}
