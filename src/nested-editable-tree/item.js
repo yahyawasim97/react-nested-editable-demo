@@ -24,9 +24,13 @@ function Item({
     >
       <Col xs="7" md="3" style={{ margin: '5px 0px' }}>
         {mode === 'read' ? (
-          <p className="item__name__style">{item.name}</p>
+          <p className="item__name__style">
+            <span className="mr-2">{index + 1}.</span>
+            {item.name}
+          </p>
         ) : (
           <Input
+            autoComplete="off"
             disabled={mode === 'read' ? true : false}
             style={
               mode === 'read'
@@ -38,12 +42,13 @@ function Item({
               handleItemChange(event, menuIndex, categoryIndex, index)
             }
             name="name"
-            placeholder="name"
+            placeholder="Name"
           />
         )}
       </Col>
       <Col xs="5" md="3" style={{ margin: '5px 0px', paddingRight: 0 }}>
         <Input
+          autoComplete="off"
           disabled={mode === 'read' ? true : false}
           style={mode === 'read' ? styles.itemEditStyle : null}
           value={mode === 'read' ? `${currency}. ${item.price}` : item.price}
@@ -51,7 +56,7 @@ function Item({
             handleItemChange(event, menuIndex, categoryIndex, index)
           }
           name="price"
-          placeholder="price"
+          placeholder="Price"
           type={mode === 'edit' ? 'number' : 'text'}
         />
       </Col>
@@ -66,6 +71,7 @@ function Item({
           </p>
         ) : (
           <Input
+            autoComplete="off"
             disabled={mode === 'read' ? true : false}
             style={
               mode === 'read' ? styles.itemEditStyle : { margin: '10px 0px' }
