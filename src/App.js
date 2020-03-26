@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import logo from './logo.svg';
-import NestedEditableTree from './nested-editable-tree/nested-editable-tree';
+import NestedEditableTree from 'react-editable-nested-menu';
 function App() {
   return (
     <div className="App">
