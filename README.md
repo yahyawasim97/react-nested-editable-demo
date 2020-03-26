@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This package offers a nested editable menu with different levels of nesting and customization. Give a star on github if you like the package.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Based on Hooks
+- Responsive
+- Easy to implement
+- Custom titles
+- Validation
+- Custom Currencies
+- Customization
+- Different levels of nesting
+- Basic initial input
+- Read and edit mode
+- Classes For customization
+- Draggable(to be implemented)
 
-### `yarn start`
+## Installation
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Npm
+`$ npm install react-editable-nested-menu`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Yarn
+`$ yarn add react-editable-nested-menu`
 
-### `yarn test`
+## Props
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Props                        | Available         | Default                  |
+| ---------------------------- | ----------------- | ------------------------ |
+| defaultMode                  | `'read' | 'edit'` | `read`                   |
+| defaultList                  | `array`           | `[]`                     |
+| title                        | `string`          | `'Nested Editable Tree'` |
+| currency                     | `string`          | `'Rs'`                   |
+| firstLevelTitleColor         | `string`          | `'black'`                |
+| secondLevelTitleColor        | `string`          | `'grey'`                 |
+| thirdLevelTitleColor         | `string`          | `'grey'`                 |
+| firstLevelTitle              | `string`          | `'Menu'`                 |
+| secondLevelTitle             | `string`          | `'Category'`             |
+| thirdLevelTitle              | `string`          | `'Item'`                 |
+| levels                       | `2-3`             | `'3'`                    |
+| secondLevelShouldHaveDetails | `boolean`         | `'false'`                |
+| logo                         | `string`          | `null`                   |
 
-### `yarn build`
+## Screenshots
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Read Mode:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Two Level
+  ![Two Level Read](https://drive.google.com/file/d/1kbsUqAI64h2kHnXg4CF2G1WvnAxS3glW/view?usp=sharing)
+- Three Level
+  ![Three Level Read](https://drive.google.com/file/d/1kHnCAvunogsImplohpcrC8xt4CtH6Eym/view?usp=sharing)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Edit Mode:
 
-### `yarn eject`
+- Two Level
+  ![Two Level Edit](https://drive.google.com/file/d/145ojS_YW-S63cFdRlpGL8r48-O8ld8An/view?usp=sharing)
+- Three Level
+  ![Three Level Edit](https://drive.google.com/file/d/1o1Mggpc5zXJ4fovOXfPIIjkdJD2Sn98-/view?usp=sharing)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Keywords
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[react](https://www.npmjs.com/search?q=keywords:react) | [react-menu](https://www.npmjs.com/search?q=keywords:react-menu) | [nested-editable-menu](https://www.npmjs.com/search?q=react-nested-editable-menu) | [react-nested-editable-menu](https://www.npmjs.com/search?q=react-nested-editable-menu)

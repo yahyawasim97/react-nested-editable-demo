@@ -9,7 +9,7 @@
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-editable-nested-menu": "0.0.2",
+    "react-editable-nested-menu": "0.0.8",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1"
   },

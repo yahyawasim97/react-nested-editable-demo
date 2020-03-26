@@ -9,6 +9,8 @@ function App() {
         getValueOnSave={list => {
           console.log(list);
         }}
+        secondLevelShouldHaveDetails={true}
+        levels={2}
         logo={logo}
       />
     </div>
