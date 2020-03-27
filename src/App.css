@@ -47,3 +47,10 @@
   height: 25 !important;
   width: auto;
 }
+
+.row__style {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: white;
+}
